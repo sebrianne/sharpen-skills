@@ -10,10 +10,12 @@ import java.util.Arrays;
 
 public class InsertionSort {
     /**
+     * sort()
+     *
      * @param A the original array to sort
      * @return the original array with its elements sorted
      */
-    public static int[] sortExe(int[] A) {
+    public static int[] sort(int[] A) {
         for (int j = 1; j < A.length; j++) {
             int key = A[j];
             // insert A[j] into the sorted sequence A[1...j-1]
@@ -32,7 +34,7 @@ public class InsertionSort {
         System.out.print("Original Array: ");
         System.out.println(Arrays.toString(test));
         System.out.print("After Insertion Sort: ");
-        System.out.println(Arrays.toString(sortExe(test)));
+        System.out.println(Arrays.toString(sort(test)));
 
         /*
         Output:
