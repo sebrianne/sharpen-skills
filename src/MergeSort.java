@@ -4,7 +4,7 @@ import java.util.Arrays;
  * MergeSort
  *
  * @author Sebrianne Ferguson
- * demonstrate how to implement the insertion sort algorithm
+ * demonstrate how to implement the heap sort algorithm
  * Algorithm adopted from:
  * Introduction to Algorithms (3rd Ed) By Cormen et. al.
  * GeeksforGeeks.com
