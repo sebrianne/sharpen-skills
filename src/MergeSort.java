@@ -88,7 +88,7 @@ public class MergeSort {
         /*
         Output:
         Original Array: [47, 22, 5, 30, 14, 7, 100, 38]
-        After Insertion Sort: [5, 7, 14, 22, 30, 38, 47, 100]
+        After Merge Sort: [5, 7, 14, 22, 30, 38, 47, 100]
          */
     }
 }
